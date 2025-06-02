@@ -1,89 +1,60 @@
-<p >
-    <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/">中文</a>
-    | <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/README_EN.md">English</a>
-</p>
 
-# 写的是艺术
+# Description
 
-<p align="center">
-  <a href="https://typora.io/"><img src="https://i.imgur.com/3U8bJOE.png" alt="image-20210710130755511" width="150" /></a>
-  <br>
-  <br>
-  <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master">下载</a>
-  | <a href="https://theme.typora.io/theme/Drake/">官网</a>
-  | <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md">自定义</a>
-  <br>
-</p>
+This theme is a fusion of [`drake-dark`](https://github.com/liangjingkanji/DrakeTyporaTheme) and [`mdmdt`](https://github.com/cayxc/Mdmdt). It combines the image positioning functionality from mdmdt with enhanced fonts and refined styling from drake-dark to create a more elegant writing experience. Please support the original authors if you find this theme useful.
+
+If you want to see full styling, please download and open `主题演示demo.md`. It's from author of [`mdmdt`](https://github.com/cayxc/Mdmdt), where has plenty of styling to test with.
+
+*Note: This README is modified from the original Drake theme documentation.*
 
 
+## Customization
 
-<p align="center">
-<a href="https://theme.typora.io/theme/Drake"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
-<a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-Apache-blue"/></a>
-<img src="https://raw.githubusercontent.com/liangjingkanji/liangjingkanji/master/img/group.svg"/>
-<a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
-<a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
-</p><br>
+**Font Size**: <kbd>Settings Interface</kbd> -> <kbd>Appearance</kbd> -> <kbd>Font Size</kbd> -> <kbd>Set Font Size</kbd>
 
-- 可以生成优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template),
-  并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 如果想收到主题更新通知请==Watch==本仓库
-- 欢迎为本项目提供更多风格主题
-
-## 自定义
-
-**字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
-
-- 自定义字体请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
--
-行高/段间距请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
-- 更多自定义请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
+- To customize fonts, edit here [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
+- For line height/paragraph spacing, edit here [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
+- For more customization, please check [FAQ](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
 
 <br>
 
-> 如果发生符号粘连(例如≠), 那是主题内置字体JetBrainsMono的特性`ligatures`,
-> 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
+> If symbol adhesion occurs (e.g., ≠), that's the `ligatures` feature of the theme's built-in JetBrainsMono font. If you don't like it, you can delete it yourself: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
 
 <br>
 
-| 推荐字体                                                                                                                      | 描述                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)                                                                | 英文字体, 适合开发人员的字体. 作者修改版本: [JetBrainsMono Patch](https://github.com/liangjingkanji/JetBrainsMono-patch)                     |
-| [Fira Code](https://github.com/tonsky/FiraCode)                                                                           | 英文字体, 前端开发人员喜欢用的字体                                                                                                        |
-| [Cascadia Code](https://github.com/microsoft/cascadia-code)                                                               | 英文字体, 微软官方字体, Windows Terminal的默认字体. 作者修改版本: [Cascadia Code Patch](https://github.com/liangjingkanji/cascadia-code-patch) |
-| [PTCode](https://github.com/liangjingkanji/PTCode)                                                                        | PT Mono 增加连字特性(Ligatures)                                                                                                 |
-| [PlexMono](https://github.com/liangjingkanji/PlexMono)                                                                    | IBM Plex Mono 增加连字特性(Ligatures)                                                                                           |
-| [Iosevka](https://github.com/be5invis/Iosevka)/[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic)                 | Iosevka/更紗黑體, 超窄字间距(稍微过窄)<br />Windows渲染效果明显(希望各位敦促作者将Iosevka其他风格整和进去)                                                    |
-| [HYYouYuan](https://www.hanyi.com.cn/productdetail?id=10875)/[HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪有圆/汉仪正圆                                                                                                           |
+| Recommended Fonts | Description |
+| ---------------- | ----------- |
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | English font, suitable for developers. Author's modified version: [JetBrainsMono Patch](https://github.com/liangjingkanji/JetBrainsMono-patch) |
+| [Fira Code](https://github.com/tonsky/FiraCode) | English font, popular among frontend developers |
+| [Cascadia Code](https://github.com/microsoft/cascadia-code) | English font, Microsoft official font, default font for Windows Terminal. Author's modified version: [Cascadia Code Patch](https://github.com/liangjingkanji/cascadia-code-patch) |
+| [PTCode](https://github.com/liangjingkanji/PTCode) | PT Mono with added ligature features |
+| [PlexMono](https://github.com/liangjingkanji/PlexMono) | IBM Plex Mono with added ligature features |
+| [Iosevka](https://github.com/be5invis/Iosevka)/[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic) | Iosevka/Sarasa Gothic, ultra-narrow letter spacing (slightly too narrow)<br />Obvious rendering effect on Windows (hope everyone urges the author to integrate other Iosevka styles) |
+| [HYYouYuan](https://www.hanyi.com.cn/productdetail?id=10875)/[HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | Chinese fonts, HanYi YouYuan/HanYi ZhengYuan |
 
-## 安装
+## Installation
 
-- [x] 首先确定已安装[Typora](https://typora.io/)
+- [x] First make sure [Typora](https://typora.io/) is installed
 
-- [ ] 通过`设置 -> 外观 -> 打开主题文件夹`打开theme目录
+- [ ] Open the theme directory through `Settings -> Appearance -> Open Theme Folder`
 
-- [ ] 复制解压后目录内的所有文件到`theme`目录下然后重启, 选择菜单栏 -> 主题即可
+- [ ] Copy all files from the extracted directory to the `theme` directory and restart, then select Menu Bar -> Theme
 
-## 预览
 
-提供多种配置预览, 点击查看高清大图
+## Preview
 
-| 主题名称           | 预览图                                                                                                                                                                                                                                            |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| drake-vue      | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/></a>           |
-| drake-jb       | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-jb.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-jb.png" width="500"/></a>             |
-| drake-juejin   | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png" width="500"/></a>     |
-| drake-google   | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-google.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-google.png" width="500"/></a>     |
-| drake          | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-drake.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-drake.png" width="500"/></a>       |
-| drake-light    | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/></a>       |
-| drake-dark     | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/></a>         |
-| drake-vue3     | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue3.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue3.png" width="500"/></a>         |
-| drake-material | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-material.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-material.png" width="500"/></a> |
-| drake-black    | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-black.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-black.png" width="500"/></a>       |
-| drake-purple   | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/></a>     |
-| drake-ayu      | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/></a>           |
+
+| Theme Name | Preview |
+| ---------- | ------- |
+| drake-dark | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/></a> |
+
+
+
+
 
 ## License
+
+### License for Drake:
 
 ```
 MIT License
@@ -109,3 +80,27 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+### License for Mdmdt:
+
+```
+Copyright [cayxc]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+
+## Future plan
+Rewrite the light theme as well
+```
+<!-- | drake-light | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/></a> | -->
+```
