@@ -46,7 +46,8 @@ If you want to see full styling, please download and open `主题演示demo.md`.
 
 | Theme Name | Preview |
 | ---------- | ------- |
-| drake-dark | <a href="https://raw.githubusercontent.com/Rayz7746/DrakeTyporaTheme/blob/master/img/dark_modified.jpg"><img src="https://raw.githubusercontent.com/Rayz7746/DrakeTyporaTheme/blob/master/img/dark_modified.jpg" width="500"/></a> |
+| drake-dark | <a href="https://raw.githubusercontent.com/Rayz7746/DrakeTyporaTheme/master/img/dark_modified.jpg"> <img src="https://raw.githubusercontent.com/Rayz7746/DrakeTyporaTheme/master/img/dark_modified.jpg" width="500"/>
+</a> |
 
 
 
