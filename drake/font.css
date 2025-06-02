@@ -6,7 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'JetBrains Mono';
     src: local('JetBrains Mono'),
     url('./JetBrainsMono-Italic.woff2') format('woff2');
@@ -29,18 +29,43 @@
     font-display: swap;
     font-weight: bold;
     font-style: italic;
+} */
+
+@font-face {
+    font-family: 'ChillRound';
+    src: url('ChillRoundM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HYYouYuan';
+    src: url('HYYouYuan_55W.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('./IBMPlexSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /*快速自定义配置*/
 :root {
-    --monospace: "Iosevka Curly", "JetBrains Mono", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan; /*代码字体*/
-    --text-font: var(--monospace); /*正文字体*/
-    --title-font: var(--monospace); /*标题字体*/
-    --latex-font: var(--monospace); /*LaTeX字体(不含英语)*/
-    --text-line-height: 1.6; /*正文行间距*/
+    --monospace:"JetBrains Mono", "HYYouYuan", "ChillRound", "Iosevka Curly", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas; /*代码字体*/
+    --text-font: "JetBrains Mono", "ChillRound"; /*正文字体*/
+    --title-font: "JetBrains Mono", "ChillRound"; /*标题字体*/
+    --latex-font: "JetBrains Mono", "ChillRound", "HYYouYuan"; /*LaTeX字体(不含英语)*/
+    --text-line-height: 1.8; /*正文行间距*/
     --code-line-height: 1.6; /*代码块行间距*/
     --p-spacing: 0.8rem; /*段间距*/
     --file-tree-text-size: 1.1rem; /*文件树大小*/
     --toc-text-size: 1rem; /*大纲大小*/
-    --text-size: 14px; /*字体大小 推荐配置: 应用设置-外观-字体大小*/
+    --text-size: 16px !important; /*字体大小 推荐配置: 应用设置-外观-字体大小*/
+    --inline-font: "IBM Plex Sans", "HYYouYuan"; /*行内代码字体*/
 }
